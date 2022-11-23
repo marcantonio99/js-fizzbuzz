@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+  
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+  
+.colore1,
+.colore2,
+.colore3,
+.colore4 {
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 9rem;
+    height: 5rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px rgb(95, 255, 3),
+      0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+  
+.colore1 {
+    background-color: wheat;
+}
+  
+.colore2 {
+    background-color: #513939;
+}
+  
+.colore3 {
+    background-color: gold;
+}
+  
+.colore4 {
+    background-color: #6653ff;
+    color: white;
+}
